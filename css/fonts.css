@@ -1,0 +1,13 @@
+@font-face {
+  font-family: "Open Sans", sans-serif;
+  src: url(OpenSans-Bold.ttf), url(OpenSans-Regular.ttf),
+    url(OpenSans-SemiBold.ttf);
+  font-weight: 700, 400, 600;
+  font-style: normal;
+}
+@font-face {
+  font-family: "Roboto", sans-serif;
+  src: url(Roboto-Blod.ttf), url(Roboto-Regular.ttf), url(Roboto-Medium.ttf);
+  font-weight: 700, 400, 500;
+  font-style: normal;
+}

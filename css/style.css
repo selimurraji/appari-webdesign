@@ -1,0 +1,1110 @@
+/*-----------------------------------------------------------------------------------
+
+Template Name: Doob - Simple Agency PSD Template.
+Template URI: site.com
+Description: Sample -Simple Agency PSD Template
+Author: BasicTheme
+Author URI: site.com
+Version: 1.0
+
+-----------------------------------------------------------------------------------
+
+CSS INDEX
+===================
+
+01. Theme default CSS	
+
+-----------------------------------------------------------------------------------*/
+/*----------------------------------------*/
+/*  01. Theme default CSS
+/*----------------------------------------*/
+/* 1. Theme default css */
+
+/* @import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600;700&family=Roboto:wght@400;500;700&display=swap'); */
+
+* {
+  margin: 0;
+  padding: 0;
+  outline: none;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Roboto", sans-serif;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 1.6;
+  color: #314584;
+  scroll-behavior: smooth;
+}
+
+.w-img img {
+  width: 100%;
+}
+
+.m-img img {
+  max-width: 100%;
+}
+
+a,
+.btn {
+  -webkit-transition: all 0.3s ease-out 0s;
+  -moz-transition: all 0.3s ease-out 0s;
+  transition: all 0.3s ease-out 0s;
+}
+
+a:focus,
+.button:focus {
+  text-decoration: none;
+  outline: none;
+}
+
+a:focus,
+a:hover {
+  color: inherit;
+  text-decoration: none;
+}
+
+a,
+button {
+  color: inherit;
+  outline: medium none;
+}
+
+.btn:focus,
+button:focus,
+input:focus,
+input:focus,
+textarea,
+textarea:focus {
+  outline: 0;
+  border: 0;
+  box-shadow: none;
+}
+
+.uppercase {
+  text-transform: uppercase;
+}
+
+.capitalize {
+  text-transform: capitalize;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: "Open Sans", sans-serif;
+  font-weight: 700;
+  color: #393542;
+  margin-top: 0px;
+  font-style: normal;
+  line-height: 1;
+}
+
+a {
+  text-decoration: none;
+  color: #cfcfd8;
+  font-family: "Roboto", sans-serif;
+  font-weight: 700;
+  font-size: 18px;
+}
+
+h1 a,
+h2 a,
+h3 a,
+h4 a,
+h5 a,
+h6 a {
+  color: #cfcfd8;
+}
+
+h1 {
+  font-size: 40px;
+}
+
+h2 {
+  font-size: 35px;
+}
+
+h3 {
+  font-size: 28px;
+  color: #38363d;
+}
+
+h4 {
+  font-size: 24px;
+  color: #38363d;
+}
+
+h5 {
+  font-size: 18px;
+}
+
+h6 {
+  font-size: 16px;
+}
+
+ul {
+  margin: 0px;
+  padding: 0px;
+}
+
+li {
+  list-style: none;
+}
+
+p {
+  font-family: "Roboto", sans-serif;
+  font-size: 16px;
+  font-weight: normal;
+  color: #878991;
+  margin-bottom: 15px;
+  line-height: 1.6;
+}
+
+hr {
+  border-bottom: 1px solid #ff3946;
+  border-top: 0 none;
+  margin: 30px 0;
+  padding: 0;
+}
+
+label {
+  color: #ff3946;
+  font-size: 16px;
+  font-weight: 400;
+  margin-bottom: 4px;
+}
+
+*::-moz-selection {
+  background: #ff3946;
+  color: #ffffff;
+  text-shadow: none;
+}
+
+::-moz-selection {
+  background: #ff3946;
+  color: #ffffff;
+  text-shadow: none;
+}
+
+::selection {
+  background: #ff3946;
+  color: #ffffff;
+  text-shadow: none;
+}
+
+/*--
+- Input Placeholder
+-----------------------------------------*/
+
+*::-moz-placeholder {
+  font-family: "Open Sans", sans-serif;
+  font-size: 18px;
+  font-weight: 300;
+  color: #30323d;
+  opacity: 1;
+}
+
+*::-webkit-input-placeholder {
+  font-family: "Open Sans", sans-serif;
+  font-size: 18px;
+  font-weight: 300;
+  color: #30323d;
+  opacity: 1;
+}
+
+*:-ms-input-placeholder {
+  font-family: "Open Sans", sans-serif;
+  font-size: 18px;
+  font-weight: 300;
+  color: #30323d;
+  opacity: 1;
+}
+
+*::-ms-input-placeholder {
+  font-family: "Open Sans", sans-serif;
+  font-size: 18px;
+  font-weight: 300;
+  color: #30323d;
+  opacity: 1;
+}
+
+*::placeholder {
+  font-family: "Open Sans", sans-serif;
+  font-size: 18px;
+  font-weight: 300;
+  color: #30323d;
+  opacity: 1;
+}
+
+/*--
+- Common Classes
+-----------------------------------------*/
+
+.fix {
+  overflow: hidden;
+}
+
+.clear {
+  clear: both;
+}
+
+.f-left {
+  float: left;
+}
+
+.f-right {
+  float: right;
+}
+
+.p-relative {
+  position: relative;
+}
+
+.p-absolute {
+  position: absolute;
+}
+
+/*--
+- Background color
+-----------------------------------------*/
+
+.grey-bg {
+  background: #f3f1f2;
+}
+
+.grey-bg-2 {
+  background: #f1f9ff;
+}
+
+.white-bg {
+  background: #ffffff;
+}
+
+.black-bg {
+  background: #38363d;
+}
+
+.black-soft-bg {
+  background: #f2faff;
+}
+
+.footer-bg {
+  background: #ffffff;
+}
+
+.footer-bottom-bg {
+  background: #ffffff;
+}
+
+.theme-bg {
+  background: #2f32d4;
+}
+
+.blue-grade-bg {
+  background-image: -moz-linear-gradient(
+    -51deg,
+    rgb(47, 50, 212) 0%,
+    rgb(113, 66, 247) 100%
+  );
+  background-image: -webkit-linear-gradient(
+    -51deg,
+    rgb(47, 50, 212) 0%,
+    rgb(113, 66, 247) 100%
+  );
+  background-image: -ms-linear-gradient(
+    -51deg,
+    rgb(47, 50, 212) 0%,
+    rgb(113, 66, 247) 100%
+  );
+}
+/*--
+- color
+-----------------------------------------*/
+
+.text-white h1,
+.text-white h2,
+.text-white h3,
+.text-white h4,
+.text-white h5,
+.text-white h6,
+.text-white p,
+.text-white span,
+.text-white li,
+.text-white a {
+  color: #ffffff;
+}
+
+.white-color {
+  color: #ffffff;
+}
+
+.black-color {
+  color: #393542;
+}
+
+.theme-color {
+  color: #314584;
+}
+
+.theme-color1 {
+  color: #ff3946;
+}
+
+/*-----      Header CSS      -------
+-----------------------------------------*/
+/* mean menu  */
+
+.header-section {
+  position: absolute;
+  left: 0;
+  right: 0;
+}
+.main-menu {
+  z-index: 9;
+  position: relative;
+}
+.main-menu ul li {
+  margin-right: 15px;
+  margin-left: 15px;
+  display: inline-block;
+  position: relative;
+}
+.main-menu ul li a {
+  padding: 20px 0;
+  line-height: 1;
+  display: list-item;
+}
+.main-menu ul li a:hover {
+  color: #ffffff;
+}
+.main-menu ul li a span {
+  margin-left: 5px;
+  color: #fff;
+  font-size: 14px;
+}
+/* Sub Menu  */
+.main-menu ul li ul.submenu {
+  position: absolute;
+  top: 120%;
+  background: rgb(255, 255, 255);
+  box-shadow: rgba(0, 0, 0, 0.1) 0px 0px 10px 3px;
+  width: 230px;
+  padding: 30px;
+  border-top: 3px solid #ff62a3;
+  opacity: 0;
+  visibility: hidden;
+  -webkit-transition: all 0.3s ease-out 0s;
+  -moz-transition: all 0.3s ease-out 0s;
+  transition: all 0.3s ease-out 0s;
+}
+.main-menu ul li:hover > ul.submenu {
+  opacity: 1;
+  visibility: visible;
+  top: 100%;
+}
+.main-menu ul li ul.submenu > li:hover > a {
+  letter-spacing: 1px;
+}
+.main-menu ul li ul.submenu li {
+  margin: 0;
+  display: block;
+  margin-bottom: 18px;
+}
+.main-menu ul li ul.submenu li:last-child {
+  margin-bottom: 0;
+}
+.main-menu ul li ul.submenu li a {
+  padding: 0;
+  color: #b9b9bd;
+  font-size: 16px;
+  font-weight: 500;
+}
+/* second sub menu  */
+.main-menu ul li ul.submenu li ul.submenu {
+  left: 150%;
+  top: 0;
+  border-color: #ffbf40;
+}
+.main-menu ul li ul.submenu li:hover ul.submenu {
+  left: 118%;
+  top: 0;
+}
+/* header btn  */
+.h-btn {
+  background-color: rgba(255, 255, 255, 0.2);
+  display: inline-block;
+  padding: 12px 55px;
+  border-radius: 30px;
+  text-transform: uppercase;
+  cursor: pointer;
+}
+.h-btn:hover {
+  background-color: rgba(255, 255, 255, 0.8);
+  color: #ffffff;
+}
+/*-----     Slider CSS      -------
+-----------------------------------------*/
+.slider-height {
+  min-height: 1190px;
+  background-repeat: no-repeat;
+  background-position: top left;
+}
+.slider-space {
+  padding-top: 387px;
+}
+.slider-text h2 {
+  font-size: 60px;
+  color: #fff;
+  line-height: 1.2;
+  padding-right: 80px;
+}
+.slider-text p {
+  font-size: 24px;
+  color: #fff;
+  padding-right: 40px;
+  margin-top: 22px;
+  margin-bottom: 40px;
+}
+/* appri btn  */
+.appri-btn {
+  -moz-user-select: none;
+  user-select: none;
+  display: inline-block;
+  padding: 19px 68px;
+  border-radius: 50px;
+  border: 2px solid transparent;
+  text-transform: uppercase;
+  cursor: pointer;
+  color: #ffffff;
+  white-space: nowrap;
+  vertical-align: middle;
+  text-align: center;
+  touch-action: manipulation;
+  background-color: #ff95a5;
+
+  -webkit-transition: all 0.3s ease;
+  -moz-transition: all 0.3s ease;
+  transition: all 0.3s ease;
+}
+.appri-btn:hover {
+  background-color: #ff95a5;
+  color: #fff;
+  border-color: transparent;
+}
+.btn-transparent {
+  background-color: transparent;
+  border-color: #fff;
+}
+.btn-transparent:hover {
+  background-color: #a7394e;
+}
+.btn-price {
+  background-color: transparent;
+  color: #38363d;
+  border-color: #ff3946;
+  padding-left: 19px;
+  padding-right: 19px;
+  padding-top: 11px;
+  padding-bottom: 11px;
+  font-size: 14px;
+}
+.btn-price-mid {
+  color: #fff;
+  background-color: #ff95a5;
+  border-color: transparent;
+}
+.slider-img {
+  margin-top: 195px;
+}
+.shape01 {
+  top: 21%;
+  left: 8%;
+}
+.shape02 {
+  bottom: -5%;
+  left: 48%;
+}
+.app-shape1 {
+  top: 12%;
+  left: -15%;
+}
+.app-shape2 {
+  top: 51%;
+  right: -32%;
+}
+
+/*-----     Fact CSS      -------
+-----------------------------------------*/
+.single-fact {
+  position: relative;
+}
+.single-fact::after {
+  position: absolute;
+  content: "";
+  background-color: #878991;
+  height: 40px;
+  width: 2px;
+  top: 33px;
+  right: -25px;
+}
+.fact-parent .col-xl-4:last-child .single-fact::after {
+  display: none;
+}
+.single-fact h2 {
+  font-size: 48px;
+  color: #7a40f2;
+}
+.single-fact span {
+  font-size: 16px;
+  color: #878991;
+  font-family: open sans;
+  font-weight: 400;
+}
+/*-----     Features CSS      -------
+-----------------------------------------*/
+
+/* appri heading  */
+.appri-heading {
+  margin-bottom: 65px;
+}
+.appri-heading h2 {
+  font-size: 48px;
+  margin-bottom: 26px;
+}
+.appri-heading p {
+  font-size: 22px;
+}
+/* appri heading end */
+.features-icon {
+  border-radius: 10px;
+  background-image: -moz-linear-gradient(
+    -40deg,
+    rgb(186, 160, 253) 0%,
+    rgb(89, 71, 243) 100%
+  );
+  background-image: -webkit-linear-gradient(
+    -40deg,
+    rgb(186, 160, 253) 0%,
+    rgb(89, 71, 243) 100%
+  );
+  background-image: -ms-linear-gradient(
+    -40deg,
+    rgb(186, 160, 253) 0%,
+    rgb(89, 71, 243) 100%
+  );
+  width: 130px;
+  height: 115px;
+  text-align: center;
+  line-height: 145px;
+  margin-bottom: 45px;
+}
+.features-icon1 {
+  background-image: -moz-linear-gradient(
+    -41deg,
+    rgb(255, 153, 165) 0%,
+    rgb(255, 96, 163) 100%
+  );
+  background-image: -webkit-linear-gradient(
+    -41deg,
+    rgb(255, 153, 165) 0%,
+    rgb(255, 96, 163) 100%
+  );
+  background-image: -ms-linear-gradient(
+    -41deg,
+    rgb(255, 153, 165) 0%,
+    rgb(255, 96, 163) 100%
+  );
+}
+.features-icon2 {
+  background-image: -moz-linear-gradient(
+    0deg,
+    rgb(255, 181, 124) 0%,
+    rgb(246, 140, 84) 100%
+  );
+  background-image: -webkit-linear-gradient(
+    0deg,
+    rgb(255, 181, 124) 0%,
+    rgb(246, 140, 84) 100%
+  );
+  background-image: -ms-linear-gradient(
+    0deg,
+    rgb(255, 181, 124) 0%,
+    rgb(246, 140, 84) 100%
+  );
+}
+.features-icon i {
+  font-size: 60px;
+  color: #fff;
+  display: inline-block;
+}
+.features-text p {
+  max-width: 280px;
+  margin: 0 auto;
+}
+.features-lfet {
+  left: 0;
+  top: -55px;
+}
+.features-right {
+  right: 0;
+  top: -147px;
+}
+/*-----     Video CSS      -------
+-----------------------------------------*/
+.video-section {
+  z-index: 99;
+}
+.video-wrap {
+  position: relative;
+  padding-top: 160px;
+  padding-bottom: 240px;
+  box-shadow: 0px 0px 136px 0px rgba(0, 0, 0, 0.06);
+  background-position: center center;
+}
+.video-text h2 {
+  font-size: 48px;
+  margin-bottom: 20px;
+}
+.video-icon {
+  width: 140px;
+  height: 140px;
+  margin: 0 auto;
+  border-radius: 50%;
+  background-image: -moz-linear-gradient(
+    -51deg,
+    rgb(47, 50, 212) 0%,
+    rgb(113, 66, 247) 100%
+  );
+  background-image: -webkit-linear-gradient(
+    -51deg,
+    rgb(47, 50, 212) 0%,
+    rgb(113, 66, 247) 100%
+  );
+  background-image: -ms-linear-gradient(
+    -51deg,
+    rgb(47, 50, 212) 0%,
+    rgb(113, 66, 247) 100%
+  );
+  transition: 0.3s;
+}
+.video-icon i {
+  font-size: 30px;
+  color: #fff;
+  text-align: center;
+  line-height: 145px;
+  transition: 0.3s;
+}
+.video-icon:hover {
+  background-image: -moz-linear-gradient(
+    -51deg,
+    rgb(81, 83, 224) 0%,
+    rgb(120, 89, 207) 100%
+  );
+  background-image: -webkit-linear-gradient(
+    -51deg,
+    rgb(81, 83, 224) 0%,
+    rgb(120, 89, 207) 100%
+  );
+  background-image: -ms-linear-gradient(
+    -51deg,
+    rgb(81, 83, 224) 0%,
+    rgb(120, 89, 207) 100%
+  );
+}
+
+.video-icon:hover i {
+  color: #314584;
+}
+/*-----     How Works CSS      -------
+-----------------------------------------*/
+.how-works {
+  z-index: 9;
+}
+.how-works-sh1 {
+  top: -500px;
+  right: 0;
+  z-index: -9;
+}
+
+/* how works content area  */
+.how-works-content h2 {
+  font-size: 36px;
+  line-height: 48px;
+  margin-bottom: 22px;
+}
+.how-works-content p {
+  margin-bottom: 35px;
+  padding-right: 60px;
+}
+/*-----     Pricing Plan CSS      -------
+-----------------------------------------*/
+.price-plan {
+  margin-bottom: -240px;
+}
+.price-box {
+  padding: 40px 50px;
+  background: #ffffff;
+  border: 1px solid #ebebeb;
+  border-radius: 20px;
+}
+.price-header {
+  border-bottom: 1px solid #ebebeb;
+  margin-bottom: 40px;
+  padding-bottom: 40px;
+}
+.price-header h5 {
+  color: #30323d;
+}
+.price-header h2 {
+  font-size: 60px;
+  color: #7336f1;
+}
+.price-header h2 span {
+  font-size: 18px;
+  font-weight: 300;
+  color: #303255;
+}
+.price-header h2 strong {
+  font-size: 36px;
+  font-weight: 300;
+  font-family: "Open Sans", sans-serif;
+}
+.price-feautres ul li {
+  font-size: 16px;
+  color: #878991;
+  margin-bottom: 10px;
+}
+/* price tab  */
+.nav-price {
+  display: inline-block;
+  margin-bottom: 40px;
+  border: 2px solid #e7e7e7;
+  border-radius: 30px;
+}
+.nav-price li {
+  display: inline-block;
+}
+.nav-price li a {
+  font-family: "Open Sans", sans-serif;
+  font-size: 14px;
+  padding: 15px 35px;
+  line-height: 1;
+  border-radius: 30px 0 0 30px;
+}
+.nav-price li:nth-child(2) a {
+  border-radius: 0 30px 30px 0;
+}
+
+.nav-price li a.active {
+  background-image: -moz-linear-gradient(
+    -41deg,
+    rgb(255, 153, 165) 0%,
+    rgb(255, 96, 163) 100%
+  );
+  background-image: -webkit-linear-gradient(
+    -41deg,
+    rgb(255, 153, 165) 0%,
+    rgb(255, 96, 163) 100%
+  );
+  background-image: -ms-linear-gradient(
+    -41deg,
+    rgb(255, 153, 165) 0%,
+    rgb(255, 96, 163) 100%
+  );
+  color: #fff;
+}
+.price-link.active .btn-price {
+  border-color: transparent;
+  background-image: -moz-linear-gradient(
+    -41deg,
+    rgb(255, 153, 165) 0%,
+    rgb(255, 96, 163) 100%
+  );
+  background-image: -webkit-linear-gradient(
+    -41deg,
+    rgb(255, 153, 165) 0%,
+    rgb(255, 96, 163) 100%
+  );
+  background-image: -ms-linear-gradient(
+    -41deg,
+    rgb(255, 153, 165) 0%,
+    rgb(255, 96, 163) 100%
+  );
+  color: #fff;
+}
+
+/*-----     Testimonials CSS      -------
+-----------------------------------------*/
+.testimonials-section {
+  padding-top: 420px;
+}
+.testimonials-section .appri-heading {
+  margin-bottom: 50px;
+}
+.testimonilas-text p {
+  font-family: "Open Sans", sans-serif;
+  font-size: 30px;
+  margin-bottom: 35px;
+}
+.testimonilas-text h5 span {
+  font-weight: 300;
+  font-style: italic;
+}
+.testimonials-img-active {
+  max-width: 390px;
+  margin: auto;
+}
+.testimonials-single-img img {
+  width: auto !important;
+  display: block;
+  margin: 0 7px;
+}
+.testimonials-single-img {
+  position: relative;
+}
+.testimonials-single-img::before {
+  position: absolute;
+  content: "";
+  background: black;
+  width: 110px;
+  height: 110px;
+
+  z-index: 2;
+  left: 7px;
+  top: 0;
+  border-radius: 50%;
+  opacity: 0.6;
+}
+.testimonials-single-img.slick-center::before {
+  opacity: 0;
+}
+
+/*-----    FAQS CSS      -------
+-----------------------------------------*/
+.faqs-padd {
+  padding-top: 444px;
+}
+.faqs-accordion .btn-accordion {
+  font-size: 18px;
+  font-weight: 700;
+  color: #30323d;
+  font-family: Open sans;
+  padding-left: 36px;
+}
+.faqs-accordion .accordion-body {
+  padding: 1rem 1.25rem;
+  box-shadow: 0px 0px 73px 0px rgba(0, 0, 0, 0.09);
+  margin-bottom: 20px;
+  border-radius: 0 0 11px 11px;
+  background-color: rgb(255, 255, 255);
+  padding: 30px 36px 20px 36px;
+}
+.faqs-accordion .accordion-button:focus {
+  outline: 0;
+  box-shadow: none;
+}
+.faqs-accordion .accordion-button:not(.collapsed) {
+  color: #fff;
+  background-color: #e7f1ff;
+  background-image: -moz-linear-gradient(
+    -51deg,
+    rgb(47, 50, 212) 0%,
+    rgb(113, 66, 247) 100%
+  );
+  background-image: -webkit-linear-gradient(
+    -51deg,
+    rgb(47, 50, 212) 0%,
+    rgb(113, 66, 247) 100%
+  );
+  background-image: -ms-linear-gradient(
+    -51deg,
+    rgb(47, 50, 212) 0%,
+    rgb(113, 66, 247) 100%
+  );
+  margin-top: -13px;
+  margin-bottom: -13px;
+  padding-top: 28px;
+  padding-bottom: 28px;
+  border-top-left-radius: 11px;
+  border-top-right-radius: 11px;
+}
+.faqs-accordion .accordion-item {
+  border-radius: 11px;
+  background-color: rgb(255, 255, 255);
+  box-shadow: 0px 0px 73px 0px rgba(0, 0, 0, 0.09);
+}
+.faqs-accordion .accordion-item:first-of-type .accordion-button {
+  border-top-left-radius: 11px;
+  border-top-right-radius: 11px;
+}
+.faqs-accordion .accordion-collapse {
+  border: none;
+}
+.faqs-accordion .accordion-button.collapsed {
+  border: none;
+}
+.faqs-accordion .accordion-header {
+  padding-top: 14px;
+  padding-bottom: 14px;
+}
+.faqs-accordion .accordion-button::after {
+  flex-shrink: 0;
+  width: 1.25rem;
+  height: 1.25rem;
+  margin-left: auto;
+  content: "";
+  background-image: url(../images/faqs/faqs-icon1.png);
+  background-repeat: no-repeat;
+  background-size: 1.25rem;
+  transition: transform 0.2s ease-in-out;
+}
+.faqs-accordion .accordion-button:not(.collapsed)::after {
+  background-image: url(../images/faqs/faqs-icon.png);
+}
+
+/* brands area  */
+.brands-padd {
+  padding-bottom: 290px;
+}
+.brand-text {
+  margin-bottom: 50px;
+}
+.brand-text h3 {
+  font-family: "Open Sans", sans-serif;
+  font-size: 30px;
+  font-weight: 600;
+  color: #30323d;
+  line-height: 1.3;
+}
+
+/*-----    LATEST NEWS CSS      -------
+-----------------------------------------*/
+
+.latest-news {
+  margin-top: -168px;
+}
+.latest-blog-content {
+  margin: 0 30px;
+  margin-top: -50px;
+  background-color: rgb(255, 255, 255);
+  box-shadow: 0px 0px 79px 0px rgba(0, 0, 0, 0.07);
+  position: relative;
+  z-index: 555;
+}
+.latest-blog-inner {
+  padding: 32px 45px;
+}
+.latest-blog-inner h4 > a {
+  font-family: "Open Sans", sans-serif;
+  font-size: 18px;
+  font-weight: 600;
+  line-height: 1.3;
+  padding-right: 48px;
+  color: #30323d;
+  transition: all 0.3s;
+}
+.latest-blog-inner h4:hover > a {
+  text-decoration: underline;
+  color: #2a2c38;
+  text-decoration-color: #837bef;
+  text-decoration-thickness: 2px;
+}
+.latest-blog-icon {
+  margin-bottom: 20px;
+}
+.latest-blog-icon span {
+  font-size: 14px;
+  color: #c8c3c3;
+  display: inline-block;
+  margin-right: 20px;
+  transition: all 0.3s;
+}
+.latest-blog-icon span a {
+  font-size: 14px;
+  color: #c8c3c3;
+  font-weight: 400;
+}
+.latest-blog-icon span i {
+  color: #7b73ee;
+  width: 25px;
+}
+.latest-blog-icon span:hover > i {
+  color: #c8c3c3;
+}
+.latest-blog-icon span:hover,
+.latest-blog-icon span:hover a {
+  color: #7b73ee;
+  letter-spacing: 1px;
+}
+
+/* newletter  */
+.newsletter-space {
+  border-radius: 20px;
+  padding-top: 65px;
+  padding-bottom: 65px;
+}
+
+.newsletter-text h2 {
+  font-size: 36px;
+  color: #fff;
+  font-weight: 600;
+  margin-bottom: 0;
+}
+.newletter-form input {
+  width: 100%;
+  height: 80px;
+  border: 0;
+  border-radius: 50px;
+  padding: 0 30px;
+  color: #878991;
+}
+.appri-btn.news-btn {
+  right: 6px;
+  top: 4px;
+}
+/*-----    APPS CSS      -------
+-----------------------------------------*/
+.apps-heading h2 {
+  font-size: 60px;
+  margin: 0;
+}
+.apps-logo {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+.apps-text {
+  text-align: left;
+}
+.apps-text span a {
+  font-family: "Open Sans", sans-serif;
+  font-weight: 300;
+  font-size: 14px;
+  line-height: 1;
+  color: #38363d;
+  display: block;
+}
+.apps-text strong {
+  font-family: "Open Sans", sans-serif;
+  font-size: 24px;
+  color: #38363d;
+  line-height: 1;
+}
+.apps-btn {
+  display: flex;
+  align-items: center;
+}
+.apps-img {
+  width: 70px;
+}
+/*-----   FOOTER CSS      -------
+-----------------------------------------*/
+.footer-text {
+  margin-top: 40px;
+  margin-bottom: 40px;
+}
